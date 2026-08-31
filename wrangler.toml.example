@@ -1,0 +1,8 @@
+name = "tamotu-salavea-author"
+pages_build_output_dir = "."
+compatibility_date = "2026-08-31"
+
+[[d1_databases]]
+binding = "REVIEWS_DB"
+database_name = "tamotu-book-reviews"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
