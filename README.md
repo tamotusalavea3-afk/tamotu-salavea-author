@@ -21,7 +21,7 @@ Approved production website package for **tamotusalavea.com**.
 - 404 page configured with `noindex,follow`
 - Mobile navigation and responsive layout
 - Cache-busted stylesheet version for the final SEO release
-- Social sharing image at `assets/og-home.jpg`
+- Social sharing image at `og-home.jpg`
 
 ## SEO / Search Console
 The sitemap is:
@@ -34,20 +34,3 @@ After deployment, submit the sitemap in **Google Search Console → Sitemaps** a
 
 ## Contact privacy
 The website publicly displays `contact@tamotusalavea.com`. Cloudflare Email Routing forwards incoming mail to the author's existing private mailbox without displaying that private destination address on the website.
-
-## Final pre-launch updates
-
-- Review copy now accurately states that submissions are reviewed manually before publication.
-- Review API keeps submissions pending until the site owner approves or rejects them.
-- Added a Privacy page for review/contact data transparency.
-- Updated the homepage launch announcement.
-- Added canonical URL coverage for the Reviews page.
-- Local internal-link audit completed with no missing relative targets.
-
-## Final deployment check
-
-1. Deploy the entire folder to the existing Cloudflare Pages project.
-2. Confirm the `REVIEWS_DB` D1 binding is present.
-3. Confirm `ADMIN_TOKEN` is configured for manual moderation.
-4. Submit the sitemap in Google Search Console after deployment.
-5. Test one review submission end-to-end, then approve it manually before launch.
